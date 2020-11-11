@@ -94,6 +94,8 @@ public class MynthraTest {
 		Thread.sleep(3000);
 	
 		system.out.println("..........................")
+system.out.println("..........................")
+system.out.println("..........................")
 		List<WebElement> colors = driver.findElements(By.xpath("//section/div[1]/div[5]/ul/li/label"));
 
 		for (WebElement color : colors) {
